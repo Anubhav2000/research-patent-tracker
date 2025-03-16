@@ -1,4 +1,4 @@
-module innovation-tracker
+module github.com/Anubhav2000/research-patent-tracker
 
 go 1.24.1
 
