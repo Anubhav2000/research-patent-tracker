@@ -25,7 +25,7 @@ func NewConfig() *Config {
 		Port:     getEnv("DB_PORT", "5432"),
 		User:     getEnv("DB_USER", "postgres"),
 		Password: getEnv("DB_PASSWORD", ""),
-		DBName:   getEnv("DB_NAME", "innovation_tracker"),
+		DBName:   getEnv("DB_NAME", "research-patent-tracker"),
 		SSLMode:  getEnv("DB_SSLMODE", "disable"),
 	}
 }
@@ -52,4 +52,4 @@ func getEnv(key, fallback string) string {
 		return value
 	}
 	return fallback
-} 
+}
